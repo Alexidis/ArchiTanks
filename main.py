@@ -1,8 +1,8 @@
-from game import Tanks, Move, Rotate, MovableAdapter, RotatableAdapter
+from game import Tank, Move, Rotate, MovableAdapter, RotatableAdapter
 
 
 if __name__ == '__main__':
-    T1 = Tanks()
+    T1 = Tank()
     while True:
         print(f'Текущая позиция {T1.get_property("position")}\nБашня смотрит под углом {T1.get_property("direction")}')
         print()
