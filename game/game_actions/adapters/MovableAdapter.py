@@ -1,4 +1,4 @@
-from game.game_actions.motions import Movable
+from game.game_actions.interfaces import Movable
 from game.game_objects.UObject import UObject
 from typing import List
 position = List[float]

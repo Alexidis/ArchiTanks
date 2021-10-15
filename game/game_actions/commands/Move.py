@@ -1,5 +1,5 @@
-from .Command import Command
-from game.adapters import MovableAdapter
+from game.game_actions.interfaces.Command import Command
+from ..adapters import MovableAdapter
 
 
 class Move(Command):

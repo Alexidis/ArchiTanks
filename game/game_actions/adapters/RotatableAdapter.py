@@ -1,4 +1,4 @@
-from game.game_actions.motions import Rotatable
+from game.game_actions.interfaces import Rotatable
 from game.game_objects.UObject import UObject
 
 
