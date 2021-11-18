@@ -26,6 +26,6 @@ jobs:
       - name: Run tests
         run: |
           pip install coverage
-          coverage run -m unittest tests.py
+          coverage run -m unittest tests/tests.py
       - name: Tests report
         run: coverage report
