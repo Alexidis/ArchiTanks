@@ -1,5 +1,5 @@
 import unittest
-from metaObj import MetaTanks, UnBurnFuelObj, DOT
+from .metaObj import MetaTanks, UnBurnFuelObj, DOT
 from game import Tank, \
                  Move, Rotate, CheckFuel, BurnFuel, BurnFuelMove, \
                  MovableAdapter, RotatableAdapter, CheckFuelAdapter, BurnFuelAdapter, \
