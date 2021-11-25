@@ -1,1 +1,1 @@
-from game.game_objects.Tanks import Tanks
+from game.game_objects.Tank import Tank

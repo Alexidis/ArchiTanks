@@ -7,8 +7,8 @@ class MetaTanks:
         self.velocity = [0, 0]
         self.direction = direction
         self.angle_velocity = 0
-
-
+       
+        
 class UnBurnFuelObj(UObject):
     def __init__(self):
         self.fuel = 0

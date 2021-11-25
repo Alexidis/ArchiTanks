@@ -1,5 +1,5 @@
-from .Command import Command
-from game.adapters import RotatableAdapter
+from game.game_actions.interfaces.Command import Command
+from game.game_actions.adapters import RotatableAdapter
 
 
 class Rotate(Command):

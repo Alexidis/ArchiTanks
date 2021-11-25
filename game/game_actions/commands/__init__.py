@@ -1,2 +1,5 @@
-from game.game_actions.commands.Move import Move
-from game.game_actions.commands.Rotate import Rotate
+from .Move import Move
+from .Rotate import Rotate
+from .CheckFuel import CheckFuel
+from .BurnFuel import BurnFuel
+from .BurnFuelMove import BurnFuelMove
