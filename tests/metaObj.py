@@ -7,7 +7,7 @@ class MetaTanks:
         self.velocity = [0, 0]
         self.direction = direction
         self.angle_velocity = 0
-        
+       
         
 class UnBurnFuelObj(UObject):
     def __init__(self):
@@ -26,9 +26,9 @@ class DOT(UObject):
         self.direction = direction
         self.angle_velocity = 0
         self._freeze()
-    
+
     def get_property(self, prop_name: str):
         return self.__dict__[prop_name]
-    
+
     def set_property(self, prop_name: str, new_value):
         self.__dict__[prop_name] = new_value
